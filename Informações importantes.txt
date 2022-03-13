@@ -1,0 +1,27 @@
+No VS Code ir até o símbulo de 4 cubinhos e instalar o Live Server (vai atualizar qualquer mudança feita no código de criação direto na pagina web).
+Intalar também o Auto Rename Tag (Caso precise renomear alguma tag irá renomear automaticamente a tag de fechamento também)
+Instalar o Dracula Official ( é um tema bom para não prejudicar a visão por conta da cor preta)
+
+Tecla do Windows + seta para esquerda faz dividir a tela do pc.
+alt + shift + seta para baixo (clona a linha em que você está).
+para inserir uma div com uma class basta digitar div.filme-principal(nome da classe, sem espaço, sendo usado o -).
+Ctrl + barra de espaço (ajuda a achar as pastas e arquivos para colocar no link)
+
+
+O arquivo CSS tem como objetivo criar regras de formatação que deixe o site padrão independente do navegador que for utilizado...
+Ex. *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+OBS - Definindo margem, espaço entre margem/elementos e o limite da borda da caixa para não romper a caixa.
+
+Definir variáveis no css.
+ex. definir as principais cores do site, pois caso precise mudar a cor, muda só em um lugar.
+
+:root{
+	--vermelho:
+	--preta:
+}
+
+O modo de corrossel é conseguido através do site OWLCAROUSEL, indo em MENU>DEMONSTRAÇÕES>BÁSICO.

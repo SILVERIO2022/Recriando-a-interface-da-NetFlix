@@ -1,0 +1,17 @@
+@media screen and (max-width:700px) {/* regra de mídia até no máximo 700px (conforme inserido) */
+    header .container{/*caixa da parte superior do site */
+        display: flex;/* joga os elementos do menu e botões pra baixo em tela menor que os pixels programados (no caso 700px)*/
+        flex-direction:column;/* forma coluna com os elementos */
+    }
+    .botao{
+        margin-top: 5px;/* margem de topo para que os botões não fiquem tão juntos */
+        width: 300px;/* defini a largura dos botões dentro de uma tela com pixels estabelecidos (neste caso tela de até 700px) */
+        
+    }
+}
+@media screen and (min-width:1000px) {
+        .descricao{
+            width: 50%;/* width define a largura da caixa */
+            text-align: justify; /* alinha o texto as margens (justificado) */
+        }
+}

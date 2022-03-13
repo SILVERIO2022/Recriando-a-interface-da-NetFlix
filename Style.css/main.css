@@ -1,0 +1,118 @@
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* elementos base */
+body{
+    background: var(--preta);/* para utilizar a variável definida no root */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;/* Elemento pai onde alterando a cor será alterado em todo site */
+
+}
+
+header .container{
+    display: flex;/* display coloca elementos organizados de acordo com padrão*/
+    align-items: center;/* centralizar o elementos de menu ao meio */
+    justify-content: space-between;/* space-between/coloca uma distância especifica entre o primerio titulo(NetFlix) e o segundo (menu) */
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 5px;/* afastar o logo da margem esquerda */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;/* Margem para distanciar os ícones do Menu */
+}
+
+header nav a:hover{/* "Hover" é para definir o evento de passar o mouse em cima do link/palavra */
+    color: #fff;
+}
+
+/* filme principal */
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)/* coloca um gradiente preto para escurecer a imagem e sobresair o texto */
+    ,url('/img/Capa-meus-truques.webp'); /*colocar a imagem de fundo  */
+    height: 400px; /* defini o tamanho da caixa para a imagem */
+    background-size: cover;/* fazer a imagem cobrir toda a caixa */
+    display: flex;
+    flex-direction: column;/* coloca os botões em colunas horizontais */
+    justify-content: center;/* coloca os botões e a descrição centralizados */
+    align-items: flex-start;/* alinha os elementos no inicio da esquerda para direita */
+       
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;/* espaçamento entre a descrição e o titulo */
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;/* margem para colocar o titulo mais para baixo */
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);/* defini a cor dos botões */
+    border: none;/* tira a borda dos botões */
+    color: white;
+    padding: 15px 30px;/* define a margem interna do botão, das letras para a borda */
+    margin-right: 30px;/* espaçamento de margem direita entre os botões */
+    font-size: 12px;
+
+    cursor: pointer;/* promovel a visualização de que é um link para ser clicado */
+    transition: 1s ease all;/* coloca a trasição entre a exibição dos potões para clicar */
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;/* promove a inversão das cores no momento que o mouse passar por cima */
+}
+
+.botao i{/* classe dos ícones */
+    margin-right: 10px;/* coloca margem a direita dos ícones para ficar mais afastado do texto */
+}
+
+.container{/* formatação de todas as class container no projeto */
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.filme-principal .container{/* formatação do container sobre do filme principal */
+    width: 70%;/* faz com que o texto dentro do container do filme principal ocupe somente 70% da tela */
+}
+
+.box-filme{/* classe para determinar o tamanho das imagens */
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrossel-filmes{
+    margin-top: 5px;/* margem do top do carrossel para o filme principal */
+}
+
+.youtube{
+    text-decoration: none;
+    color: white;
+}
+
+.youtube:hover{
+    color: black;
+}

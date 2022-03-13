@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css/main.css">
+    <!-- owl css -->
+    <link rel="stylesheet" href="Style.css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="Style.css/owl/owl.theme.default.min.css">
+    <!-- Responsividade da página -->
+    <link rel="stylesheet" href="style.css/responsive.css"><!-- formata a responsividade da página -->
+
+    <title>NetFlix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NetFlix</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">MEUS TRUQUES</h3>
+                <p class="descricao">Meus Truques é um filme documentário de 1999 realizado por Jackie Chan, onde este mostra ao público como consegue fazer diversas acrobacias, golpes e cenas em que usa vários objetos de uso diário. Neste filme também é mostrada a sua equipe de filmagem e diversas acrobacias e truques de seus filmes</p>
+                <div class="botoes"><!-- essa div serve para colocar os botões lado a lado, já que estamos colocando os botões na mesma div -->
+                    <button role="button" class="botao"><!-- button/cria botão na interface, role/define a função do botão -->
+                        <i class="fa-solid fa-play"></i>
+                        <a class="youtube" href="https://www.youtube.com/watch?v=B7tnlHpUQrg&ab_channel=edgar2015" target="_blank">ASSISTIR AGORA</a> 
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a class="youtube" href="http://asiamundi.com.br/?p=10564" target="_blank">MAIS INFORMAÇÕES</a> 
+                    </button>
+                </div>
+            </div>
+         </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme"><!-- owl carousel (colocar em ingles) indica que está usando o mesmo / owl theme indica que está usando o tema padrão -->
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (1).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (2).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (3).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (4).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (5).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (6).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (7).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (8).jpg" alt="" srcset="">
+            </div>
+            <div class="item"><!-- para cada imagem precisa ter uma <div> -->
+                <img class="box-filme" src="img/Mini (9).jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1ef4173deb.js" crossorigin="anonymous"></script><!-- código para conseguir os ícones -->
+
+    <script src="JavaScripte/owl/jquery.min.js"></script><!-- sempre colocar o java script no final do projeto, depois de todo conteúdo inserido -->
+    <script src="JavaScripte/owl/owl.carousel.min.js"></script>
+    <script src="JavaScripte/owl/setup.js"></script> <!-- javascript sendo lincado com o setup para formar o carrossel na página -->
+
+
+</body>
+</html>
